@@ -1,0 +1,135 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+   }
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+    }
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+    }
+
+:root {
+    --brand-light-color: #2B7FFF;
+    --brand-dark-color: #011C44;
+    --primary-light-color: #FFFF;
+    --button-decription-color: #4A4A4A;
+    --intellectual-property-color: #747272;
+    --article-description-color: #000000;
+}
+
+body {
+    color: var(--brand-dark-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    color: var(--primary-light-color);
+    background-color: var(--brand-dark-color);
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.about-text {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.link {
+    color: var(--brand-dark-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.link:hover {
+    color: var(--brand-light-color);
+    font-weight: 700;
+}
+
+.footer-link {
+    color: var(--primary-light-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero-title {
+    color: var(--brand-light-color);
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 1.2;
+}
+
+.section-header {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.15;
+    text-align: center;
+}
+
+.header-accent {
+    color: var(--brand-light-color);
+}
+
+.bold-accent {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#about-header .header-accent {
+    color: var(--brand-light-color);
+    text-transform: capitalize;
+}
+
+.button {
+    color: var(--primary-light-color);
+    background-color: var(--brand-light-color);
+    border: 2px solid;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button:hover {
+    color: var(--brand-dark-color);
+    background-color: transparent;
+    border: 2px solid var(--brand-light-color)
+}
+
+.button-decription {
+    color: var(--button-decription-color);
+    font-size: 12px;
+}
+
+article {
+    color: var(--article-description-color);
+    background-color: var(--primary-light-color);
+}
+
+.intellectual-property {
+    color: var(--intellectual-property-color);
+}
